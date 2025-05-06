@@ -90,7 +90,7 @@ class LinePlotWidget(QWidget):
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = LinePlotWidget()
-    window.setWindowTitle("Sigma MS")
+    window.setWindowTitle("KL Divergence Visualization")
     window.resize(600, 400)
     window.show()
     sys.exit(app.exec())
